@@ -12,6 +12,14 @@ return {
         'startify',
         'dashboard'
       },
+      sections = {
+        lualine_c = {
+          {
+            'filename',
+            path = 1,
+          }
+        },
+      }
     })
   end,
 }
